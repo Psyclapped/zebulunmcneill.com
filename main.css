@@ -1,31 +1,86 @@
 /*
-MAIN BACKGROUND STUFF: Bright Gray
-HEX: #373F4A
-RGB: (55,63,74)
+MAIN BACKGROUND STUFF: Light Gray
+HEX: #CCCCCC
 
-MAIN ITEMS AND ELEMENTS: Viridian Green
-HEX: #6A957C
-RGB: (106,149,124)
+MAIN ITEMS AND ELEMENTS AND MAIN TEXT: Black Coffee
+HEX: #342E37
 
-TEXT AND WHATNOT: Aths Special
-HEX: #ECE6D1
-RGB: (236,230,209)
-
-HIGHLIGHTS AND ACCENTS: Lotus
-HEX: #823F3A
-RGB: (130,63,58)
+HIGHLIGHTS AND ACCENTS: Dark Magenta
+HEX: #A000A2
 */
 
 html {
-  background-color: #373F4A;
+  background-color: #CCCCCC;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Prompt', sans-serif;
+  color: #342E37;
 }
 
 p {
-  color: #ECE6D1;
+  font-weight: 400;
 }
 
-.square {
-  width: 500px;
-  height: 500px;
-  background-color: #823F3A;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  margin-bottom: 0;
+  background-color: #342E37;
+  justify-content: center;
+}
+
+footer p {
+  color: #CCCCCC;
+}
+
+.navbar {
+  background-color: #342E37;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  margin-top: 0;
+  padding: 1% 2%;
+  color: #CCCCCC
+}
+
+a {
+  text-decoration: none;
+  color: #342E37
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+.currentPage {
+  background-color: #A000A2;
+}
+
+.notThisPage:hover {
+  background-color: #A000A2;
+}
+
+.content {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 85%;
 }
