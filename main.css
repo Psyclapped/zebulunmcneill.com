@@ -1,37 +1,31 @@
 /*
-FIRST THEME
-Ebony Clay
-HEX: #2A2E3E
-RGB: (42,46,62)
-
-Cutty Sark
-HEX: #4B6968
-RGB: (75, 105, 104)
-
-Donkey Brown
-HEX: #A39073
-RGB: (163, 144, 115)
-
-Cognac
-HEX: #B1401B
-RGB: (177,64,27)
-
-***
-
-SECOND THEME
-Bright Gray
+MAIN BACKGROUND STUFF: Bright Gray
 HEX: #373F4A
 RGB: (55,63,74)
 
-Viridian Green
+MAIN ITEMS AND ELEMENTS: Viridian Green
 HEX: #6A957C
 RGB: (106,149,124)
 
-Aths SPecial
+TEXT AND WHATNOT: Aths Special
 HEX: #ECE6D1
 RGB: (236,230,209)
 
-Lotus
+HIGHLIGHTS AND ACCENTS: Lotus
 HEX: #823F3A
 RGB: (130,63,58)
 */
+
+html {
+  background-color: #373F4A;
+}
+
+p {
+  color: #ECE6D1;
+}
+
+.square {
+  width: 500px;
+  height: 500px;
+  background-color: #823F3A;
+}
