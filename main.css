@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 p {
   font-weight: 400;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,7 +41,9 @@ footer {
   display: flex;
   margin-bottom: 0;
   background-color: #342E37;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 footer p {
@@ -52,21 +55,20 @@ footer p {
   padding: 10px;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 .navbar a {
   margin-top: 0;
   padding: 1% 2%;
-  color: #CCCCCC
+  color: #CCCCCC;
+  border-radius: 1px;
+  box-shadow: 0 0 5px 0.1px #A000A2;
 }
 
 a {
   text-decoration: none;
   color: #342E37
-}
-
-a:hover {
-  font-weight: 700;
 }
 
 .currentPage {
@@ -78,9 +80,12 @@ a:hover {
 }
 
 .content {
-  max-width: 80%;
+  max-width: 60%;
+  padding: 1% 0;
   display: flex;
-  justify-content: center;
   margin: 0 auto;
-  height: 85%;
+  /* min-height: 100%; */
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
 }
