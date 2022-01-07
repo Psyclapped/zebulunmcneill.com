@@ -107,7 +107,7 @@ a {
 
 .gridItem:hover {
   animation-name: gridHover;
-  animation-duration: 1s;
+  animation-duration: 0.25s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
