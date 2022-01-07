@@ -120,6 +120,15 @@ a {
   height: 300px;
 }
 
+.gridItem p {
+  display: flex;
+  align-items: center;
+}
+
+.gridItem {
+  justify-content: center;
+}
+
 .gridItemContent {
   box-shadow: 0 0 5px 1px #342E37;
 }
