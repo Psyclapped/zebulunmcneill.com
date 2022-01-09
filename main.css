@@ -119,8 +119,8 @@ a {
   /* TOGGLE THE NEXT LINE TO VIEW DEBUG BORDER */
   /* border: 1px solid #A000A2; */
   display: flex;
-  width: 30%;
-  height: 300px;
+  width: 300px;
+  height: 100%;
 }
 
 .gridItem p {
