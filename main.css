@@ -15,7 +15,7 @@ html {
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
+
 }
 
 body {
@@ -44,6 +44,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 footer p {
