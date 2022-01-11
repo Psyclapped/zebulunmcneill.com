@@ -15,7 +15,7 @@ html {
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
+
 }
 
 body {
@@ -44,6 +44,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 footer p {
@@ -116,8 +119,8 @@ a {
   /* TOGGLE THE NEXT LINE TO VIEW DEBUG BORDER */
   /* border: 1px solid #A000A2; */
   display: flex;
-  width: 30%;
-  height: 300px;
+  width: 300px;
+  height: 100%;
 }
 
 .gridItem p {
@@ -131,4 +134,69 @@ a {
 
 .gridItemContent {
   box-shadow: 0 0 5px 1px #342E37;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1600px) {
+  .gridMain {
+    gap: 2%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .gridMain {
+    gap: 2%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gridMain {
+    flex-direction: column;
+    position: relative;
+    margin-top: 125%;
+    margin-bottom: 5%;
+  }
+
+  .gridItem {
+    margin: 5% auto;
+  }
+
+  .gridItem p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .content {
+    max-width: 80%;
+  }
+
+  .gridMain {
+    margin-top: 110%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gridItem {
+    width: 240px;
+  }
+  .gridMain {
+    margin-top: 80%;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  html {
+    min-width: 340px;
+  }
+
+  .gridItem {
+    width: 250px;
+  }
+
+  .gridMain {
+    margin-top: 95%;
+  }
 }
