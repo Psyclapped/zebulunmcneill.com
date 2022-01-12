@@ -78,10 +78,6 @@ a {
   background-color: #A000A2;
 }
 
-.notThisPage:hover {
-  background-color: #A000A2;
-}
-
 .content {
   max-width: 60%;
   padding: 1% 0;
@@ -103,9 +99,32 @@ a {
   margin-top: 2%;
 }
 
+@keyframes navHover {
+  100% {background-color: #6D006E;}
+}
+
 @keyframes gridHover {
   0%  {height: 300px; width: 300px;}
   100% {height: 325px; width: 325px; margin-top: -10px;}
+}
+
+@keyframes blogHover {
+  0% {width: 80%;}
+  100% {width: 82%;}
+}
+
+.notThisPage:hover {
+  animation-name: navHover;
+  animation-duration: 0.25s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.blogEntry:hover {
+  animation-name: blogHover;
+  animation-duration: 0.25s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .gridItem:hover {
