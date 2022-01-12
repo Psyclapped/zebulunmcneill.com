@@ -136,6 +136,39 @@ a {
   box-shadow: 0 0 5px 1px #342E37;
 }
 
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 2%;;
+}
+
+.blog img {
+  margin: 0 auto;
+}
+
+.blogEntry {
+  box-shadow: 0 0 5px 0 #A000A2;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blogTitle {
+  background-color: #342E37;
+  padding: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.blogTitle h2 {
+  color: #CCCCCC;
+}
+
+.solanaAddress {
+  margin-top: -2%;
+}
+
 
 /* MEDIA QUERIES */
 
