@@ -68,7 +68,6 @@ a {
   animation-name: glow;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  /* text-shadow: 0 0 10px hotpink, 0 0 10px hotpink; */
 }
 
 .darkMode .portfolioMain {
