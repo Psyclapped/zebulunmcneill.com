@@ -56,3 +56,44 @@ a {
   border-radius: 25px;
   padding: 2%;
 }
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.darkMode a {
+  color: hotpink;
+  animation-duration: 1s;
+  animation-name: glow;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.darkMode .portfolioMain {
+  animation-duration: 3s;
+  animation-name: glow2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px hotpink, 0 0 10px hotpink;
+  }
+
+  to {
+    text-shadow: 0 0 20px hotpink, 0 0 20px hotpink;
+  }
+}
+
+
+@keyframes glow2 {
+  from {
+    box-shadow: 0 0 10px 1px #39FF14, 0 0 10px 1px #39FF14;
+  }
+
+  to {
+    box-shadow: 0 0 20px 1px #39FF14, 0 0 20px 1px #39FF14;
+  }
+}
