@@ -4,7 +4,7 @@ import gif from "./giphy.gif"
 function Contact() {
   return (
     <div className="contact">
-      <p>If you wanna reach out, here's my:</p>
+      <h2>how to reach me</h2>
       <p>
         <a href="https://wa.me/+14692897017">WhatsApp</a>
         <a href="https://www.patreon.com/psyclapped" target="_blank">Patreon</a>

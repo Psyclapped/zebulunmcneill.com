@@ -19,6 +19,11 @@ p, h1, h2, a {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 code {
   font-family: 'Prompt', sans-serif;
 }

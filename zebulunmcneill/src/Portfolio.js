@@ -1,7 +1,7 @@
 function Portfolio() {
   return (
     <div className="portfolio">
-      <h2>Here's some cool shit I've done</h2>
+      <h2>some cool shit I've done</h2>
       <p>
         <a href="https://github.com/Psyclapped/indeedAutoApply" target="_blank">Indeed Auto Apply [WIP]</a><br />A Chrome
           Extension that Automatically Applies to Remote JS Jobs.

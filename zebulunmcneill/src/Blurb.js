@@ -1,6 +1,7 @@
 function Blurb() {
   return (
     <div className="blurb">
+      <h2>greetings, traveller</h2>
       <p>It appears you've stumbled upon my website. For that, I applaud you.</p>
       <p>For obvious, I'm not applauding you for finding the website.
         Websites aren't hard to find, especially whatwith SEO and the

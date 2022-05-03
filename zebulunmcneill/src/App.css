@@ -21,7 +21,7 @@
   color: #111111;
   font-size: calc(10px + 1.5vmin);
   flex-direction: column;
-  text-align: end;
+  text-align: justify;
 }
 
 .contact {
@@ -56,7 +56,7 @@
 
 .portfolio > p {
   font-size: calc(10px + 1vmin);
-  color:rgb(123, 78, 129);
+  color:#000000;
   text-align: left;
 }
 
