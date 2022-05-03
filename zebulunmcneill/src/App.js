@@ -7,7 +7,6 @@ import Portfolio from './Portfolio';
 import BannerImage from './BannerImage';
 import BlurbImage from './BlurbImage';
 import FolioImage from './FolioImage';
-import MoonImage from './MoonImage';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
       <Contact />
       <FolioImage />
       <Portfolio />
-      {/* <MoonImage /> */}
     </div>
   );
 }
