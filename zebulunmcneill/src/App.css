@@ -80,3 +80,13 @@
   font-style: italic;
   font-size: calc(10px + 2vmin);
 }
+
+.banner-image {
+  max-height: 250px;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}

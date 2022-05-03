@@ -4,6 +4,10 @@ import Navi from './Navi';
 import Blurb from './Blurb';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import BannerImage from './BannerImage';
+import BlurbImage from './BlurbImage';
+import FolioImage from './FolioImage';
+import MoonImage from './MoonImage';
 
 function App() {
   return (
@@ -11,9 +15,13 @@ function App() {
       <header className="App-header">
         <Navi />
       </header>
+      <BannerImage />
       <Blurb />
+      <BlurbImage />
       <Contact />
+      <FolioImage />
       <Portfolio />
+      <MoonImage />
     </div>
   );
 }
