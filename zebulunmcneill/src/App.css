@@ -35,6 +35,25 @@
   text-align: end;
 }
 
+.contact {
+  background-color: #222222;
+  color: white;
+  padding: 2em;
+  font-size: calc(10px + 1.5vmin);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: anywhere;
+}
+
+.contact a {
+  flex-direction: column;
+  padding: 0 2%;
+  text-decoration: none;
+  color: rgb(113, 0, 128);
+  font-weight: bold;
+}
+
 .App-link {
   color: #61dafb;
 }

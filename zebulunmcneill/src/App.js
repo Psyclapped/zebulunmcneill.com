@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navi from './Navi';
 import Blurb from './Blurb';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navi />
       </header>
       <Blurb />
+      <Contact />
     </div>
   );
 }
