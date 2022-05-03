@@ -22,14 +22,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #cecece;
 }
 
 .blurb {
   display: flex;
   padding: 1em 3em;
   background-color: #222222;
-  color: white;
+  color: #cecece;
   font-size: calc(10px + 1.5vmin);
   flex-direction: column;
   text-align: end;
@@ -37,7 +37,7 @@
 
 .contact {
   background-color: #222222;
-  color: white;
+  color: #cecece;
   padding: 1em 3em;
   font-size: calc(10px + 1.5vmin);
   text-align: left;
@@ -48,11 +48,11 @@
 
 .portfolio {
   background-color: #222222;
-  color: white;
+  color: #cecece;
   padding: 1em 3em;
   font-size: calc(10px + 1.5vmin);
-  text-align: justify;
-  display: flex;
+  text-align: center;
+  /* display: flex; */
   gap: 10%;
 
 }
@@ -67,7 +67,8 @@
 
 .portfolio > p {
   font-size: calc(10px + 1vmin);
-  color:rgb(123, 78, 129)
+  color:rgb(123, 78, 129);
+  text-align: left;
 }
 
 .contact a{
@@ -78,17 +79,4 @@
   font-weight: bold;
   font-style: italic;
   font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

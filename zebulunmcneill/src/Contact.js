@@ -12,9 +12,9 @@ function Contact() {
         <a
           href="mailto:zeb.mcn@gmail.com?subject=I want to hire you&body=I'll pay you lots and lots of money. You're literally a unicorn developer with full-stack engineering skills and a decent sense of humor, and I think you'd make an excellent addition to my team. Let's do an $80,000/yr base salary plus benefits with a 100% remote position. Can you start next Monday?">Email</a>
         <br />
-        <a href="./files/Resume-Zebulun-McNeill.pdf" target="_blank">Resume</a>
+        <a href="%PUBLIC_URL%/Resume-Zebulun-McNeill.pdf" target="_blank">Resume</a>
         <a href="https://github.com/Psyclapped" target="_blank">GitHub</a>
-        <a href="./images/giphy.gif" id="of">OnlyFans</a>
+        <a href="%PUBLIC_URL%/giphy.gif" id="of">OnlyFans</a>
       </p>
       <p>idk, i'm not perfect but i am me - and that's what's important, right?</p>
     </div>
