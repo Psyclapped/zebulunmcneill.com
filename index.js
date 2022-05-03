@@ -14,3 +14,8 @@ darkMode.addEventListener("click", (e) => {
   }
 })
  */
+
+const ofLink = document.getElementById("of");
+ofLink.addEventListener("click", e => {
+  window.alert("Did you serious just click that lmao");
+})

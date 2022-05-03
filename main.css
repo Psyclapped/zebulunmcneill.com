@@ -14,8 +14,9 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Prompt', sans-serif;
 }
 
-h1 {
+h1#darkMode {
   font-weight: 100;
+  margin-bottom: 5%;
 }
 
 h1, h2 {
@@ -58,7 +59,7 @@ a {
 
 .portfolioMain {
   background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 5px 1px gray;
+  box-shadow: 0 0 5px 1px rgb(113, 0, 128);
   border-radius: 25px;
   padding: 2%;
 }
@@ -69,7 +70,7 @@ a {
 }
 
 .darkMode a {
-  color: teal;
+  color: rgb(113, 0, 128);
   animation-duration: 1s;
   animation-name: glow;
   animation-iteration-count: infinite;
