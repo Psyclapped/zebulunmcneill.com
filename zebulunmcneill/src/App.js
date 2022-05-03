@@ -21,7 +21,7 @@ function App() {
       <Contact />
       <FolioImage />
       <Portfolio />
-      <MoonImage />
+      {/* <MoonImage /> */}
     </div>
   );
 }
