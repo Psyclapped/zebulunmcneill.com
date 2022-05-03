@@ -27,7 +27,7 @@
 
 .blurb {
   display: flex;
-  padding: 2em;
+  padding: 1em 3em;
   background-color: #222222;
   color: white;
   font-size: calc(10px + 1.5vmin);
@@ -38,7 +38,7 @@
 .contact {
   background-color: #222222;
   color: white;
-  padding: 2em;
+  padding: 1em 3em;
   font-size: calc(10px + 1.5vmin);
   text-align: left;
   display: flex;
@@ -46,12 +46,38 @@
   overflow-wrap: anywhere;
 }
 
-.contact a {
+.portfolio {
+  background-color: #222222;
+  color: white;
+  padding: 1em 3em;
+  font-size: calc(10px + 1.5vmin);
+  text-align: justify;
+  display: flex;
+  gap: 10%;
+
+}
+
+.portfolio > p > a {
+  color: rgb(113, 0, 128);
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+  font-size: calc(10px + 2vmin);
+}
+
+.portfolio > p {
+  font-size: calc(10px + 1vmin);
+  color:rgb(123, 78, 129)
+}
+
+.contact a{
   flex-direction: column;
   padding: 0 2%;
   text-decoration: none;
   color: rgb(113, 0, 128);
   font-weight: bold;
+  font-style: italic;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-link {

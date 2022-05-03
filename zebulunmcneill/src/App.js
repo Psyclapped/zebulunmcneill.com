@@ -3,6 +3,7 @@ import './App.css';
 import Navi from './Navi';
 import Blurb from './Blurb';
 import Contact from './Contact';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <Blurb />
       <Contact />
+      <Portfolio />
     </div>
   );
 }
