@@ -69,7 +69,7 @@ a {
 }
 
 .darkMode a {
-  color: hotpink;
+  color: teal;
   animation-duration: 1s;
   animation-name: glow;
   animation-iteration-count: infinite;

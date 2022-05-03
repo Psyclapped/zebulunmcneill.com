@@ -1,4 +1,4 @@
-const darkMode = document.getElementById("darkMode");
+/* const darkMode = document.getElementById("darkMode");
 const body = document.getElementsByTagName("body")[0];
 
 if (localStorage.getItem("darkMode") === "true") {
@@ -13,3 +13,4 @@ darkMode.addEventListener("click", (e) => {
     localStorage.setItem("darkMode", "true");
   }
 })
+ */
