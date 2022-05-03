@@ -22,6 +22,8 @@
   font-size: calc(10px + 1.5vmin);
   flex-direction: column;
   text-align: justify;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .contact {
@@ -33,6 +35,8 @@
   display: flex;
   flex-direction: column;
   overflow-wrap: anywhere;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .portfolio {
@@ -43,7 +47,8 @@
   text-align: center;
   /* display: flex; */
   gap: 10%;
-
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .portfolio > p > a {
