@@ -3,13 +3,16 @@ function Portfolio() {
     <div className="portfolio">
       <h2>some cool shit I've done</h2>
       <p>
+        <a href="https://solscape.vercel.app/" target="_blank">SolScape</a><br />A Solana-based ORPG, heavily inspired by Old School RuneScape.
+        <br />
+        <br />
         <a href="https://github.com/Psyclapped/bionicReading" target="_blank">Bionic Reading [WIP]</a><br />A Chrome
         Extension that optimizes paragraph text on webpages, making them easier and faster to read
         Got ADHD like I do? Then you'll probably get some good use out of this one.
         Also I'm open to contributions to this project!
         <br />
         <br />
-        <a href="https://github.com/Psyclapped/indeedAutoApply" target="_blank">Indeed Auto Apply [WIP]</a><br />A Chrome
+        <a href="https://github.com/Psyclapped/indeedAutoApply" target="_blank">Indeed Auto Apply [DEPRECATED]</a><br />A Chrome
         Extension that Automatically Applies to Remote JS Jobs.
         <br />
         <br />
