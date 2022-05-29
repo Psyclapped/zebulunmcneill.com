@@ -2,37 +2,176 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.big-letter {
+  color: goldenrod;
+  font-size: calc(40px + 2vmin);
+  text-decoration: underline;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: justify;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
+  gap: 2%;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2% 10%;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+  animation: 2s ease-out 0s 1 textFadeIn;
+  font-size: calc(10px + 3vmin);
+}
+
+.right {
+  flex: 1;
+  text-align: center;
+}
+
+.right img {
+  width: 250px;
+  animation: 1.2s ease-out 0s 1 slideInFromRight;
+}
+
+.headshot {
+  border-radius: 100%;
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgba(143, 1, 1, 1);
 }
 
-@keyframes App-logo-spin {
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 10%;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 2%;
+  padding-bottom: 2%;
+  animation: 1.5s ease-out 0s 1 portfolioFade;
+}
+
+.portfolio-grid-item {
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+  padding: 10px;
+  text-align: center;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 20%;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 2%;
+  animation: 1.5s ease-out 0s 1 portfolioFade;
+}
+
+.contact-grid-item {
+  border-radius: 100%;
+  text-align: center;
+}
+
+.contact-grid-item img {
+  width: 50px;
+}
+
+.portfolio-grid-item:hover {
+  /* box-shadow: #282c34 0px 0px 10px; */
+  animation-name: portfolioHover;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+.portfolio-grid-item h3 {
+  font-size: 1em;
+  margin: 2% auto;
+}
+
+
+/* anims */
+@keyframes portfolioHover {
   from {
-    transform: rotate(0deg);
+    box-shadow: #282c34 0px 0px 0px;
   }
   to {
-    transform: rotate(360deg);
+    box-shadow: #282c34 0px 0px 10px;
+  }
+}
+
+@keyframes portfolioFade {
+  from {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes textFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+/* media queries and whatnot */
+
+@media (max-width: 1450px) {
+  .portfolio-grid {
+    grid-template-columns: 40% 40%;
+    grid-gap: 20%;
+  }
+}
+
+@media (max-width: 980px) {
+  .portfolio-grid {
+    grid-template-columns: 100%;
+    grid-gap: 5%;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    text-align: center;
+  }
+
+  .portfolio-grid, .contactGrid {
+    margin-top: 50px;
   }
 }
