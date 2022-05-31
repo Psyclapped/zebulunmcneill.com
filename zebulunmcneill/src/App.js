@@ -11,8 +11,12 @@ function App() {
             <p>
               <span className="big-letter">A</span>bout me
             </p>
-            <h2>I'm a full-stack web developer.</h2>
-            <p>I'm a web developer based in Texas. I have a passion for development, and love to create for web and mobile devices.</p>
+            <h2>I'm a full-stack software engineer.</h2>
+            <p>I'm a web developer that's currently based out in Texas.
+              I have a passion for development, and love creating
+              content for the web.</p>
+            <p>
+            </p>
           </div>
           <div className="right">
             <img src="headshot.jpg" alt="headshot" className="headshot" />
