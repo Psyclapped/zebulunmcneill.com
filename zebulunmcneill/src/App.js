@@ -25,49 +25,49 @@ function App() {
         <div className="portfolio-grid">
           <div className="portfolio-grid-item">
             <h3>App Academy Times</h3>
-            <a href="https://appacademytimes.com/"><img src="aatimes.png"></img></a>
+            <a href="https://appacademytimes.com/" target="_blank"><img src="aatimes.png"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Bionic Reading</h3>
-            <a href="https://github.com/Psyclapped/bionicReading"><img src="bionicreading.png"></img></a>
+            <a href="https://github.com/Psyclapped/bionicReading" target="_blank"><img src="bionicreading.png"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Coding Foundation</h3>
-            <a href="https://codingfoundation.org/"><img src="codingfoundation.png"></img></a>
+            <a href="https://codingfoundation.org/" target="_blank"><img src="codingfoundation.png"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Indeed Auto Apply</h3>
-            <a href="https://github.com/Psyclapped/indeedAutoApply"><img src="indeedautoapply.png"></img></a>
+            <a href="https://github.com/Psyclapped/indeedAutoApply" target="_blank"><img src="indeedautoapply.png"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>OtterQuest</h3>
-            <a href="https://store.steampowered.com/app/1857220/OtterQuest/"><img src="otterquest.png"></img></a>
+            <a href="https://store.steampowered.com/app/1857220/OtterQuest/" target="_blank"><img src="otterquest.png"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Skryblr</h3>
-            <a href="https://skryblr.com/"><img src="skryblr.png"></img></a>
+            <a href="https://skryblr.com/" target="_blank"><img src="skryblr.png"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>SolScape</h3>
-            <a href="https://solscape.vercel.app/"><img src="solscape.png"></img></a>
+            <a href="https://solscape.vercel.app/" target="_blank"><img src="solscape.png"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Sphynx Ink</h3>
-            <a href="https://sphynxink.com/"><img src="sphynxink.png"></img></a>
+            <a href="https://sphynxink.com/" target="_blank"><img src="sphynxink.png"></img></a>
           </div>
         </div>
         <div className="contactGrid">
           <div className="contact-grid-item">
-            <a href="https://www.linkedin.com/in/zebulun-mcneill/"><img src="linkedin.png"></img></a>
+            <a href="https://www.linkedin.com/in/zebulun-mcneill/" target="_blank"><img src="linkedin.png"></img></a>
           </div>
           <div className="contact-grid-item">
-            <a href="https://twitter.com/psyclapped"><img src="twitter.png"></img></a>
+            <a href="https://twitter.com/psyclapped" target="_blank"><img src="twitter.png"></img></a>
           </div>
           <div className="contact-grid-item">
-            <a href="mailto:zeb.mcn@gmail.com?subject=I want to hire you&body=I'll pay you lots and lots of money. You're literally a unicorn developer with full-stack engineering skills and a decent sense of humor, and I think you'd make an excellent addition to my team. Let's do an $80,000/yr base salary plus benefits with a 100% remote position. Can you start next Monday?"><img src="gmail.png"></img></a>
+            <a href="mailto:zeb.mcn@gmail.com?subject=I want to hire you&body=You're literally a unicorn developer with full-stack engineering skills, some experience in Web3.0, and a decent sense of humor, and I think you'd make an excellent addition to my team. Let's do an $80,000/yr base salary plus benefits with a 100% remote position. Can you start next Monday?" target="_blank" rel="noopener noreferrer"><img src="gmail.png"></img></a>
           </div>
           <div className="contact-grid-item">
-            <a href="https://github.com/Psyclapped"><img src="github.png"></img></a>
+            <a href="https://github.com/Psyclapped" target="_blank"><img src="github.png"></img></a>
           </div>
         </div>
       </header>
