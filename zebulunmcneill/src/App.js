@@ -19,7 +19,7 @@ function App() {
             </p>
           </div>
           <div className="right">
-            <img src="headshot.jpg" alt="headshot" className="headshot" />
+            <img src="headshot.webp" alt="headshot" className="headshot" />
           </div>
         </div>
         <div className="portfolio-grid">
