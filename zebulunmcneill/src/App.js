@@ -19,55 +19,55 @@ function App() {
             </p>
           </div>
           <div className="right">
-            <img src="headshot.webp" alt="headshot" className="headshot" width="250px"/>
+            <img src="headshot.webp" alt="headshot" className="headshot" width="250px" height="250px"/>
           </div>
         </div>
         <div className="portfolio-grid">
           <div className="portfolio-grid-item">
             <h3>App Academy Times</h3>
-            <a href="https://appacademytimes.com/" target="_blank"><img src="aatimes.webp" width="250px"></img></a>
+            <a href="https://appacademytimes.com/" target="_blank"><img src="aatimes.webp" width="250px" height="250px"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Bionic Reading</h3>
-            <a href="https://github.com/Psyclapped/bionicReading" target="_blank"><img src="bionicreading.webp" width="250px"></img></a>
+            <a href="https://github.com/Psyclapped/bionicReading" target="_blank"><img src="bionicreading.webp" width="250px" height="250px"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Coding Foundation</h3>
-            <a href="https://codingfoundation.org/" target="_blank"><img src="codingfoundation.webp" width="250px"></img></a>
+            <a href="https://codingfoundation.org/" target="_blank"><img src="codingfoundation.webp" width="250px" height="250px"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Indeed Auto Apply</h3>
-            <a href="https://github.com/Psyclapped/indeedAutoApply" target="_blank"><img src="indeedautoapply.webp" width="250px"></img></a>
+            <a href="https://github.com/Psyclapped/indeedAutoApply" target="_blank"><img src="indeedautoapply.webp" width="250px" height="250px"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>OtterQuest</h3>
-            <a href="https://store.steampowered.com/app/1857220/OtterQuest/" target="_blank"><img src="otterquest.webp" width="250px"></img></a>
+            <a href="https://store.steampowered.com/app/1857220/OtterQuest/" target="_blank"><img src="otterquest.webp" width="250px" height="250px"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Skryblr</h3>
-            <a href="https://skryblr.com/" target="_blank"><img src="skryblr.webp" width="250px"></img></a>
+            <a href="https://skryblr.com/" target="_blank"><img src="skryblr.webp" width="250px" height="250px"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>SolScape</h3>
-            <a href="https://solscape.vercel.app/" target="_blank"><img src="solscape.webp" width="250px"></img></a>
+            <a href="https://solscape.vercel.app/" target="_blank"><img src="solscape.webp" width="250px" height="250px"></img></a>
           </div>
           <div className="portfolio-grid-item">
             <h3>Sphynx Ink</h3>
-            <a href="https://sphynxink.com/" target="_blank"><img src="sphynxink.webp" width="250px"></img></a>
+            <a href="https://sphynxink.com/" target="_blank"><img src="sphynxink.webp" width="250px" height="250px"></img></a>
           </div>
         </div>
         <div className="contactGrid">
           <div className="contact-grid-item">
-            <a href="https://www.linkedin.com/in/zebulun-mcneill/" target="_blank"><img src="linkedin.webp" width="50px"></img></a>
+            <a href="https://www.linkedin.com/in/zebulun-mcneill/" target="_blank"><img src="linkedin.webp" width="50px" height="50px"></img></a>
           </div>
           <div className="contact-grid-item">
-            <a href="https://twitter.com/psyclapped" target="_blank"><img src="twitter.webp" width="50px"></img></a>
+            <a href="https://twitter.com/psyclapped" target="_blank"><img src="twitter.webp" width="50px" height="50px"></img></a>
           </div>
           <div className="contact-grid-item">
-            <a href="mailto:zeb.mcn@gmail.com?subject=I want to hire you&body=You're literally a unicorn developer with full-stack engineering skills, some experience in Web3.0, and a decent sense of humor, and I think you'd make an excellent addition to my team. Let's do an $80,000/yr base salary plus benefits with a 100% remote position. Can you start next Monday?" target="_blank" rel="noopener noreferrer"><img src="gmail.webp" width="50px"></img></a>
+            <a href="mailto:zeb.mcn@gmail.com?subject=I want to hire you&body=You're literally a unicorn developer with full-stack engineering skills, some experience in Web3.0, and a decent sense of humor, and I think you'd make an excellent addition to my team. Let's do an $80,000/yr base salary plus benefits with a 100% remote position. Can you start next Monday?" target="_blank" rel="noopener noreferrer"><img src="gmail.webp" width="50px" height="50px"></img></a>
           </div>
           <div className="contact-grid-item">
-            <a href="https://github.com/Psyclapped" target="_blank"><img src="github.webp" width="50px"></img></a>
+            <a href="https://github.com/Psyclapped" target="_blank"><img src="github.webp" width="50px" height="50px"></img></a>
           </div>
         </div>
       </header>
