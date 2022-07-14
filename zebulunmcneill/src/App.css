@@ -3,7 +3,7 @@
 }
 
 .big-letter {
-  color: goldenrod;
+  color: rgb(190, 90, 25);
   font-size: calc(40px + 2vmin);
   text-decoration: underline;
 }
@@ -112,7 +112,6 @@
   font-size: 1em;
   margin: 2% auto;
 }
-
 
 /* anims */
 @keyframes portfolioHover {
